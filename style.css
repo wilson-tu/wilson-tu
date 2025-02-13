@@ -8,13 +8,13 @@ body {
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: auto 1fr auto;
-    gap: 10px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 /* header */
@@ -422,6 +422,47 @@ body {
   margin-left: 50px;
 }
 
+/* carousel */
+.carousel {
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  max-width: 480px;
+}
 
+.group {
+  display: flex;
+  gap: 20px;
+  will-change: transform;
+  animation: scrolling 10s linear infinite;
+}
 
+.group img {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.group img[alt="C"] {
+  transform: scale(1.15);
+}
+
+.group img[alt="Node.js"] {
+  transform: scale(1.5);
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.carousel:hover .group {
+  animation-play-state: paused;
+}
 
