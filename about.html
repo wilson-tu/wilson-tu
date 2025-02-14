@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wilson T. - About</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Press Start 2P', sans-serif;
+      background-image: url('https://oudkee.neocities.org/sitewide/starsky.gif');
+      background-repeat: repeat;
+      background-size: auto;
+      color: #f6c917;
+      margin: 0;
+    }
+
+    .container {
+      display: grid;
+      grid-template-rows: auto auto auto 1fr auto;
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      position: relative;
+    }
+
+    header img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 0;
+    }
+
+    header h1 {
+      z-index: 1;
+      position: relative;
+      color: #ffe8a3;
+      font-size: 2em;
+    }
+
+    .navigation-bar {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #222;
+      padding: 15px 20px;
+      border: 3px solid #fbbb54;
+      box-shadow: inset 0 0 0 6px #fbdb6f, 0 0 10px rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+    }
+
+    .navigation-bar a {
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 20px;
+      background-color: #444;
+      border: 2px solid #666;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .navigation-bar a:hover {
+      background-color: #ff79b0;
+    }
+
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .frame {
+      background-color: #222;
+      padding: 20px;
+      border: 3px solid #fbbb54;
+      box-shadow: inset 0 0 0 6px #fbdb6f, 0 0 10px rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .skills-grid .item {
+      text-align: center;
+      background-color: #333;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .skills-grid .item img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      border: 2px solid #fbbb54;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      margin-top: 25px;
+    }
+
+    .skills-grid .item p {
+      color: #ffcc33;
+    }
+
+    .footer {
+      text-align: center;
+      background-color: #fac62a;
+      color: #000;
+      padding: 10px;
+      border: 3px solid #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .footer img {
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <img src="./media/waves.gif" alt="Header Background">
+      <h1>Wilson T. - About</h1>
+    </header>
+
+    <nav class="navigation-bar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="interests.html">Interests</a>
+    </nav>
+
+    <main class="main-content">
+      <section class="frame">
+        <h2>About Me</h2>
+        <p>
+          Hello! My name is Wilson T., and I am a Computer Science student at Simon Fraser University (SFU).
+          I am deeply passionate about low-level programming, operating systems, and exploring the wonders of TempleOS.
+          My goal is to bridge the gap between hardware and software through efficient, clean, and thoughtful coding.
+        </p>
+      </section>
+
+      <section class="frame">
+        <h2>Projects</h2>
+        <div class="skills-grid">
+          <div class="item">
+            <img src="media/metrovan.png" alt="Metro Vancouver Emergency Response">
+            <p>Metro Vancouver Emergency Response Website</p>
+            <p>Designed and implemented a responsive frontend for incident reporting, form handling, and interactive maps.</p>
+          </div>
+          <div class="item">
+            <img src="media/pyimag.png" alt="Python Blackfoot Language App">
+            <p>Python Blackfoot Language App</p>
+            <p>An audio-visual language learning app that incorporates image processing and interactive gameplay for cultural preservation.</p>
+          </div>
+          <div class="item">
+            <img src="media/game.png" alt="3D Unity Platformer Game">
+            <p>3D Unity Platformer Game</p>
+            <p>Developed character controls, collision detection, and interactive levels to create an engaging 3D platformer game.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        <img src="./media/anon.gif" alt="anon">
+        <img src="./media/patrick.gif" alt="patrick">
+        <img src="./media/crab.gif" alt="crab">
+        <img src="./media/catsneed.gif" alt="cat">
+        <img src="./media/calvin.gif" alt="calvin">
+        Wilson T. @ 2025
+        <img src="./media/hobbes.gif" alt="hobbes">
+        <img src="./media/demi.gif" alt="demi">
+        <img src="./media/boombox.gif" alt="boombox">
+        <img src="./media/kirby.gif" alt="kirby">
+        <img src="./media/terry.gif" alt="terry">
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
