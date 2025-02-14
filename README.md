@@ -54,7 +54,11 @@ For this task, please include your answers for the questions described in [Lab 4
 
 ### Q1
 
-[Insert answer here]
+## Project Repository | NOTE: I made all my commits and changes on this repository, and then I cloned everything into the repository link below. It would allow me to import this repo for some reason.
+[Link to Project Repository](https://github.com/wilson-tu/my-website)
+
+## Deployed Website
+[Link to Website](https://wilson-tu.github.io/my-website)
 
 ### Q2
 
