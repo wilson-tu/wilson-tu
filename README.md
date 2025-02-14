@@ -25,6 +25,8 @@ Example (Mini Project):
 
 More detailed submission instructions can be found via the [lab page](https://parsa-rajabi.github.io/CMPT-276/#/labs).
 
+[MINI PROJECT AI DISCLOSURE FORM](Mini_Project_AI_Declaration_Wilson_Tu_301598563.pdf)
+
 ## Task 1: Website Wireframe
 
 Include screenshots of your website wireframe here. Make sure the wireframe is clear and easy to understand/read. To compliment your wireframes, describe the layout and how the elements are organized. Screenshots that are blurry or hard to read will be penalized. 
