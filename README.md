@@ -31,6 +31,14 @@ Include screenshots of your website wireframe here. Make sure the wireframe is c
 
 In addition to the screenshots, you can also a link to your wireframe file (if you used an online tool to create it). Make sure the link is accessible to the teaching team (check using an incognito window). This is not a replacement for the screenshots, but an additional resource for the teaching team to understand your wireframe.
 
+![Wireframe: Main Page](wireframe.png)
+The Main Page uses a grid layout with a sidebar for greetings and icons, a central section for an introduction and quote, and another sidebar for navigation. Additional sections display time, programming languages, and contact info.
+
+![Wireframe: Interests Page](wireframe interest.png)
+The Interests Page is divided into three sections: "Favourite Movies," "Favourite Games," and "Favourite Animes." Each section is laid out in a grid format, with three items per category for images and brief descriptions.
+
+![Wireframe: About Page](wireframe about.png)
+The About Page includes an "About Me" section for a descriptive introduction and a "Projects" section displaying three neatly arranged boxes for showcasing individual projects.
 
 ## Task 2: Follow-up Questions
 
