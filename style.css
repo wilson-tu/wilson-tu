@@ -514,3 +514,11 @@ html {
 .contact-icons img:hover {
   transform: scale(1.1);
 }
+
+.carousel img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel img:hover {
+  transform: scale(1.05);
+}
